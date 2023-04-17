@@ -1,0 +1,4 @@
+&simulation_configulation
+    config%initial_value = -100d0
+    config%number_of_iterations = 20
+/

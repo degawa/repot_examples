@@ -1,0 +1,8 @@
+{
+    "unknown": {
+        "initial value": 1.0
+    },
+    "iterative solver": {
+        "number of iterations": 1
+    }
+}
