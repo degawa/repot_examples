@@ -1,0 +1,21 @@
+name = "repot_examples"
+version = "0.1.0"
+license = "MIT"
+author = "Tomohiro Degawa"
+maintainer = "degawa.tomohiro@gmail.com"
+copyright = "Copyright 2023, Tomohiro Degawa"
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+[install]
+library = false
+
+[preprocess]
+[preprocess.cpp]
+
+[dev-dependencies]
+repot = {git = "https://github.com/degawa/repot.git"}
+json-fortran = {git="https://github.com/jacobwilliams/json-fortran"}
+stdlib = { git="https://github.com/fortran-lang/stdlib", branch="stdlib-fpm" }
+M_CLI2 = { git = "https://github.com/urbanjost/M_CLI2.git" }
